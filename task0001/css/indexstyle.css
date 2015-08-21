@@ -1,17 +1,67 @@
 @charset "utf-8";
 /* CSS Document */
-div,p,ul,li,body,img,h1,h2,h3,artcle,a,dl,dt,dd {margin:0;padding:0;border:0;font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;font-size:12px;}
-ul,li{list-style:none;}
-a{text-decoration:none;underline:none;}
+div,p,ul,li,body,img,h1,h2,h3,artcle,a,dl,dt,dd {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
+	font-size:12px;
+}
+@font-face{
+	font-family:"Century Gothic";
+	src:url(../../Century%20Gothic.ttf);
+}
+@font-face {
+	font-family:Shruti;
+	src:url(../../Shruti.ttf);
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;underline:none;
+}
 /*导航条*/
-.navbg{width:100%;height:80px;background-color:#522a5c;color:#FFF;}
-.nav{max-width:980px;_width:980px;margin:0 auto;overflow:hidden;}
-.mylogo{font-size:30px;float:left;font-family:"century gothic BOLD";padding-top:35px;}
-.nav_menu{float:right;}
-.nav_menu li {float:right;vertical-align:bottom;padding-left:28px;font-size:14px;padding-top:58px;}
-.nav_menu li a{color:#FFF;}
-.githubLogo {position:absolute;top:46px;right:10px;}
-@media all and (max-width: 980px){.githubLogo{display:none;}}
+.navbg{
+	width:100%;
+	height:80px;
+	background-color:#522a5c;
+	color:#FFF;
+}
+.nav{
+	max-width:980px;
+	_width:980px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.mylogo{
+	font-size:30px;
+	float:left;
+	font-family:Shruti;
+	padding-top:35px;
+}
+.nav_menu{
+	float:right;
+}
+.nav_menu li {
+	float:right;
+	vertical-align:bottom;
+	padding-left:28px;
+	font-size:14px;
+	padding-top:58px;
+}
+.nav_menu li a{
+	color:#FFF;
+}
+.githubLogo {
+	position:absolute;
+	top:46px;
+	right:10px;
+}
+@media all and (max-width: 980px){
+	.githubLogo{display:none;
+	}
+}
 /*背景图片*/
 div.banner_bg {
 	position:relative;
@@ -82,8 +132,8 @@ div.banner_bg {
 }
 .myrecom h3{
 	padding:50px 0 40px 0;
-	font-weight:none;
-	font-family:"Century Gothic", "century gothic BOLD";
+	font-weight:normal;
+	font-family:"Century Gothic";
 	font-size:20px;
 	
 }

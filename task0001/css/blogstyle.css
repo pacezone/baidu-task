@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+div, p, ul, li, body, img, h1, h2, h3, h4, a, dl, dt, dd, table, tr, td, th, form, input, em, strong, span {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
+	font-size:12px;
+}
+@font-face {
+    font-family:"Century Gothic" ;
+    src:url(../../Century%20Gothic.ttf);
+    }
+body {
+	background-color:#eee;
+}
+ul, li {
+	list-style:none;
+}
+a {
+	text-decoration:none;underline:none;
+}
+/*导航条*/
+.navbg {
+	width:100%;
+	height:80px;
+	background-color:#522a5c;
+	color:#FFF;
+}
+.nav {
+	max-width:980px;
+	_width:980px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.mylogo {
+	font-size:30px;
+	float:left;
+	font-family:"Century Gothic";
+	padding-top:35px;
+}
+.nav_menu {
+	float:right;
+}
+.nav_menu li {
+	float:right;
+	vertical-align:bottom;
+	padding-left:28px;
+	font-size:14px;
+	padding-top:58px;
+}
+.nav_menu li a {
+	color:#FFF;
+}
+.githubLogo {
+	position:absolute;
+	top:46px;
+	right:10px;
+}
+@media all and (max-width: 980px){
+	.githubLogo {
+		display:none;
+	}
+}
+/*上中下的中间栏*/
+.blog {
+	width:980px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+/*左边栏*/
+.left_bar {
+	float:left;
+	width:710px;
+}
+/*左边的文章栏*/
+.blog_article{
+	position:relative;
+	background:#FFF;
+	margin-bottom:10px;
+	padding:20px;
+}
+.blog_article h2 {
+	font-size:16px;
+	color:#A660B7;
+}
+.blog_article h3 {
+	font-size:12px;
+	color:#666;
+	line-height:300%;
+}
+.blog_article p {
+	line-height:180%;
+	text-indent:2em;	
+}
+.dateinfo{
+	font-weight:normal;
+
+}
+	
+.blog_tips {
+	position:absolute;
+	top:20px;
+	left:-50px;
+	_margin-left:-20px;
+	overflow: visible;
+	z-index:100;
+	width:50px;
+	height:80px;
+	line-height:40px;
+	font-size:14px;
+	text-align:center;
+	color:#FFF;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#522A5C;	
+}
+.blog_tips span {
+	display:inline-block;
+	width:50px;
+	height:40px;
+	line-height:40px;
+	background:#A660B7;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+
+
+
+
+
+.right_bar {
+	float:right;
+	width:260px;
+}
+/*Footer*/
+.footer {
+	text-align:center;
+	background-color:#000;
+	color:#fff;
+	font-size:14px;
+}
+.footer a{
+	color:#fff;
+	text-decoration:none;
+	underline:none;
+	font-size:14px;
+}
+.footer a:hover,.footer a:active{
+	text-decoration:underline;
+	color:#fff;
+	font-size:14px;
+}
+.footer_index{
+	width:100%;
+	text-align:center;
+	border-bottom:1px solid #333;
+}
+.footer_index li{
+	display:inline-block;
+	margin:0 10px;
+	line-height:300%;
+}
+/*友情链接*/
+.footer_link{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:45px;	
+}
+.footer_link dl{
+	margin-right:90px;
+	float:left;
+	text-align:left;
+}
+dl.footer_lastlink{
+	margin-right:0px;
+}
+.footer_link dt{
+	margin-bottom:30px;
+	color:#ccc;
+}
+
+.footer_link dd{
+	color:#fff;
+	line-height:170%;
+}
+
+.footer_link dd a:link{
+	color:#fff;
+	text-decoration:none;
+	underline:none;
+}
+.footer_link dd a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+/*版权声明*/
+.footer p{
+	padding-top:110px;
+	padding-bottom:20px;
+}
+.footer img{
+	display:block;
+	margin:0 auto;
+}
+
