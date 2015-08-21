@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<title>三列布局</title>
+    <style type="text/css">
+    	p,div{margin:0;padding:0;border:0,font-family:Arial, Helvetica, sans-serif;font-size:14px;}
+		p{padding:10px 0 10px 10px;background-color:#069;color:#FFF;margin:10px 0;overflow:hidden;}
+		.box1{max-width:1100px;margin:0 auto;overflow:hidden;}
+		.box_2{float:left;background-color:#69D200;width:100%;}
+		.box_1{width:200px;float:left;background-color:#00A8A8;margin-left:-100%;}
+		.box_3{width:200px;float:left;background-color:#A60000;margin-left:-200px;}
+		.box2{max-width:1100px;margin:0 auto;display:flex;display:-webkit-box;display:-webkit-flex;display:-moz-box;
+		display:-ms-flexbox;flex-flow:row wrap;justfy-content:flex-start;}
+		.boxa{background-color:#00A8A8;width:200px;}
+		.boxb{background-color:#69D200;flex:1 auto;}
+		.boxc{background-color:#A60000;width:200px;}
+		
+    </style>
+</head>
+<body>
+	<p>第一种布局</p>
+    	<div class="box1">
+        <div class="box_2">BOX-B</div>
+    	  <div class="box_1">BOX-A</div>
+    	  
+    	  <div class="box_3">BOX-C</div>
+    	</div>
+    <p>第二种布局</p>
+    	<div class="box2">
+    	  <div class="boxa">BOX-A</div>
+    	  <div class="boxb">BOX-B</div>
+    	  <div class="boxc">BOX-C</div>
+    	</div>
+</body>
+</html>

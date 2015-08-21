@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+div,p{margin:0;padding:0;border:0;}
+p{padding:10px 0 10px 10px;background-color:#933;color:#FFF;font-family:Arial, Helvetica, sans-serif;margin:20px 0;}
+.box{max-width:1100px;margin:0 auto;}
+.topleft{background-color:#90F;width:200px;height:200px;float:left;}
+.topright{background-color:#FF6;height:200px;}
+.bottom{background-color:#C06;height:200px;}
+.box2{display:flex;display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;
+		flex-flow:row wrap;justify-content:flex-start;max-width:1100px;margin:0 auto;}
+.Abox{height:200px;width:200px;background-color:#90F;}
+.Cbox{height:200px;flex:1 100%;background-color:#C06;}
+.Bbox{background-color:#FF6;flex:1 auto;}

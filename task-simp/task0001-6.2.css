@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+h3{background:#066}
+/*圆角矩形*/
+/*div{margin:0;padding:0;border:0;}*/
+.corner{width:600px;margin:30px auto;}
+.cornerT_line{background:url(images/corners/corner_top.png) repeat-x;height:8px;overflow:hidden;}
+.cornerT_left{background:url(images/corners/corner_top_l.jpg) no-repeat;height:8px;}
+.cornerT_right{background:url(images/corners/corner_top_r.jpg) no-repeat right 0;height:8px;}
+.article{border-left:4px solid #000;border-right:4px solid #000;}
+.cornerB_line{background:url(images/corners/corner_bottom.png) repeat-x;height:8px;overflow:hidden;}
+.cornerB_left{background:url(images/corners/corner_bottom_l.jpg) no-repeat;height:8px;}
+.cornerB_right{background:url(images/corners/corner_bottom_r.jpg) no-repeat right 0;height:8px;}
+

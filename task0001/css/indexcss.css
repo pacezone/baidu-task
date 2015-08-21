@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+div,p,ul,li,body,img,h1,h2,h3,artcle,a,dl,dt,dd {margin:0;padding:0;border:0;font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;font-size:12px;}
+ul,li{list-style:none;}
+a{text-decoration:none;underline:none;}
+/*导航条*/
+.navbg{width:100%;height:80px;background-color:#522a5c;color:#FFF;}
+.nav{max-width:980px;_width:980px;margin:0 auto;overflow:hidden;}
+.mylogo{font-size:30px;float:left;font-family:"century gothic BOLD";padding-top:35px;}
+.nav_menu{float:right;}
+.nav_menu li {float:right;vertical-align:bottom;padding-left:28px;font-size:14px;padding-top:58px;}
+.nav_menu li a{color:#FFF;}
+.githubLogo {position:absolute;top:46px;right:10px;}
+@media all and (max-width: 980px){.githubLogo{display:none;}}
+/*背景图片*/
+div.banner_bg {
+	position:relative;
+	
+}
+.banner_bg img {
+	display:block;
+	border:0px;	
+}
+.banner_bg div {
+	position:absolute;
+	bottom:0;
+	right:13.67%;
+	padding:10px 10px 30px 10px;
+	width:345px;
+	color:#fff;
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 75%, rgba(255, 255, 255, 0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3ffffff', endColorstr='#00ffffff', GradientType=0); 
+}
+.banner_bg h3{
+	font-size:14px;
+	font-weight:normal;
+	padding-bottom:12px;
+}
+.banner_bg p{
+	line-height:150%;
+}
+
+/*中间文章*/
+.article_bg{
+	width:100%;
+	background-color:#eee;
+	padding:10px 0 120px 0;
+}
+.article_bg ul{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden; 
+}
+.article_bg li{
+	float:left;
+	width:300px;
+	padding:10px;
+	line-height:170%;
+	background-color:#FFF;
+	padding-bottom:10000px;
+	margin-bottom:-10000px; 
+    
+}
+.article_bg p{
+	line-height:170%;
+	padding:15px 20px 25px;
+}
+.article_middbox {
+	margin:0 10px;
+}
+/*自我接受*/
+.myrecom{
+	text-align:center;
+	padding-bottom:200px;
+}
+.myrecom img{
+	margin-top:-50px;	
+}
+.myrecom h3{
+	padding:50px 0 40px 0;
+	font-weight:none;
+	font-family:"Century Gothic", "century gothic BOLD";
+	font-size:20px;
+	
+}
+.myrecom p{
+	width:600px;
+	margin:0 auto;
+	font-size:14px;
+	text-align:left;
+	text-indent:2em;
+	line-height:170%;	
+}
+/*Footer*/
+.footer{
+	text-align:center;
+	background-color:#000;
+	color:#fff;
+	font-size:14px;
+}
+.footer a{
+	color:#fff;
+	text-decoration:none;
+	underline:none;
+	font-size:14px;
+}
+.footer a:hover,.footer a:active{
+	text-decoration:underline;
+	color:#fff;
+	font-size:14px;
+}
+.footer_index{
+	width:100%;
+	text-align:center;
+	border-bottom:1px solid #333;
+}
+.footer_index li{
+	display:inline-block;
+	margin:0 10px;
+	line-height:300%;
+}
+/*友情链接*/
+.footer_link{
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:45px;	
+}
+.footer_link dl{
+	margin-right:90px;
+	float:left;
+	text-align:left;
+}
+dl.footer_lastlink{
+	margin-right:0px;
+}
+.footer_link dt{
+	margin-bottom:30px;
+	color:#ccc;
+}
+
+.footer_link dd{
+	color:#fff;
+	line-height:170%;
+}
+
+.footer_link dd a:link{
+	color:#fff;
+	text-decoration:none;
+	underline:none;
+}
+.footer_link dd a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+/*版权声明*/
+.footer p{
+	padding-top:110px;
+	padding-bottom:20px;
+}
+.footer img{
+	display:block;
+	margin:0 auto;
+}

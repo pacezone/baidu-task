@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<title>双飞翼布局</title>
+    <style type="text/css">
+		body{font:22px/1.5 Georgia, sans-serif;color:#333;min-width:500px;}
+		div,p,header,footer,pre{margin:0;padding:0;border:0;}
+	    a { outline: none; text-decoration: none; color: #8CD0D3; }
+        a:visited { color: #8CD0D3; }
+		pre { font: 12px 'Courier New', monospace; }
+		.main { background: #D6D6D6; }
+        .sub { background: #E79F6D; }
+        .extra { background: #77BBDD; }
+    	header{height: 50px;background-color: #666; color: #eee;text-align: center;;line-height:50px;}
+		footer{height:40px;line-height:40px;background-color:#F00; color: #eee;text-align: center;}
+		/*核心布局*/
+		.main{float:left;width:100%;}
+		.sub{float:left;width:190px;margin-left:-100%;}
+		.extra{float:left;width:230px;margin-left:-230px;}
+/*		.main,.sub,.extra{padding-bottom:5000px;margin-bottom:-5000px;}*/
+		/*header{overflow:hidden;_zoom:1;}*/
+    </style>
+</head>
+<body>
+	<div class="page">
+    	<header>Header</header>
+        	<div class="bd">
+        	  <div class="main">
+			  	<p>Main</p>
+            	<pre>
+                            .main {
+                                float: left;	
+                                width: 100%;
+                                				
+                            }									
+           		 </pre>
+				</div>
+        	  <div class="sub">
+			   <p>Sub</p>
+            	<pre>
+.sub {
+    float: left;
+    width: 190px;
+    margin-left: -100%;
+}
+			  </div>
+        	  <div class="extra">
+			  <p>Extra</p>
+            <pre>
+.extra {
+    float: left;
+    width: 230px;
+    margin-left: -230px;
+}
+            </pre>
+			  </div>
+        	</div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
