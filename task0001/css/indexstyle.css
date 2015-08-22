@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-div,p,ul,li,body,img,h1,h2,h3,artcle,a,dl,dt,dd {
+div, p, ul, li, body, img, h1, h2, h3, artcle, a, dl, dt, dd {
 	margin:0;
 	padding:0;
 	border:0;
@@ -23,6 +23,7 @@ a{
 }
 /*导航条*/
 .navbg{
+	position:relative;
 	width:100%;
 	height:80px;
 	background-color:#522a5c;
@@ -54,10 +55,17 @@ a{
 	color:#FFF;
 }
 .githubLogo {
+	width:30px;
+	height:34px;
+	background:url(../design/icon-github.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/icon-github.png',sizingMethod="crop");
+	
 	position:absolute;
-	top:46px;
-	right:10px;
+	bottom:0px;
+	right:10px;	
 }
+
 @media all and (max-width: 980px){
 	.githubLogo{display:none;
 	}
@@ -65,7 +73,7 @@ a{
 /*背景图片*/
 div.banner_bg {
 	position:relative;
-	
+	_zoom:1;
 }
 .banner_bg img {
 	display:block;
@@ -133,7 +141,7 @@ div.banner_bg {
 .myrecom h3{
 	padding:50px 0 40px 0;
 	font-weight:normal;
-	font-family:"Century Gothic";
+	font-family:"Century Gothic", Arial;
 	font-size:20px;
 	
 }
@@ -146,7 +154,7 @@ div.banner_bg {
 	line-height:170%;	
 }
 /*Footer*/
-.footer{
+.footer {
 	text-align:center;
 	background-color:#000;
 	color:#fff;
@@ -173,46 +181,46 @@ div.banner_bg {
 	margin:0 10px;
 	line-height:300%;
 }
+
+
 /*友情链接*/
 .footer_link{
-	width:980px;
-	margin:0 auto;
-	overflow:hidden;
-	margin-top:45px;	
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 45px;	
 }
-.footer_link dl{
-	margin-right:90px;
+.link_address li {
 	float:left;
 	text-align:left;
+	margin-right:90px;
 }
-dl.footer_lastlink{
+li.last_address {
 	margin-right:0px;
 }
-.footer_link dt{
+.link_address h4 {
 	margin-bottom:30px;
 	color:#ccc;
+	font-weight:normal;
+}
+.link_address  a{
+	display:block;
+	padding:0.4em 0;
+	font-size:14px;
+	color:#FFF;
 }
 
-.footer_link dd{
-	color:#fff;
-	line-height:170%;
-}
-
-.footer_link dd a:link{
-	color:#fff;
-	text-decoration:none;
-	underline:none;
-}
-.footer_link dd a:hover{
-	color:#fff;
-	text-decoration:underline;
-}
 /*版权声明*/
-.footer p{
+.footer p {
 	padding-top:110px;
 	padding-bottom:20px;
 }
-.footer img{
+.footer_githubloge {
 	display:block;
 	margin:0 auto;
+	width:30px;
+	height:34px;
+	background:url(../design/icon-github.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/icon-github.png',sizingMethod="crop");
 }
