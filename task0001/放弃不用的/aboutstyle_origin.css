@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+div, p, ul, li, body, img, h1, h2, h3, h4, h5, h6, artcle, a, dl, dt, dd {
+	margin:0;
+	padding:0;
+	border:0;
+	font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
+	font-size:12px;
+}
+@font-face{
+	font-family:"Century Gothic";
+	src:url(../../Century%20Gothic.ttf);
+}
+@font-face {
+	font-family:Shruti;
+	src:url(../../Shruti.ttf);
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;underline:none;
+}
+body {
+	background:#eee;
+}
+/*导航条*/
+.navbg{
+	margin-bottom:100px;
+	width:100%;
+	height:80px;
+	background-color:#522a5c;
+	color:#FFF;
+	
+}
+.nav{
+	max-width:980px;
+	_width:980px;
+	margin:0 auto;
+	overflow:hidden;
+	_zoom:1;
+}
+.mylogo{
+	font-size:30px;
+	line-height:30px;
+	float:left;
+	font-family:Shruti;
+	padding-top:45px;
+}
+.githubLogo {
+	position:absolute;
+	right:10px;
+	top:46px;
+	float:right;
+	width:30px;
+	height:34px;
+	background:url(../design/icon-github.png) no-repeat;
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/icon-github.png',sizingMethod="crop");
+	
+}
+.nav_menu{
+	}
+.nav_menu li {
+	float:right;
+	padding-left:28px;
+	font-size:14px;
+	line-height:14px;
+	margin-top:58px;
+}
+.nav_menu li a{
+	color:#FFF;
+}
+
+
+@media all and (max-width: 980px){
+	.githubLogo{display:none;
+	}
+}
+/*自我介绍栏*/
+.resume {
+	width:980px;
+	margin:0 auto;
+}
+/*头像*/
+.mypic {
+	height:110px;
+	background:#fff;
+}
+.mypic img {
+	float:left;
+	margin-top:-70px;
+	margin-left:405px;
+	display:block;
+}
+/*自我介绍*/
+.resu_name {
+	overflow:hidden;
+	_zoom:1;
+}
+.resu_name h4 {
+	float:left;
+	width:495px;
+	padding-top:18px;
+	background:#FFF;
+	padding-bottom:10000px;
+	margin-bottom:-10000px; 
+}
+.resu_name h4 span {
+	display:block;
+	float:right;
+	margin-right:75px;
+	font-family:"Century Gothic", Arial;
+	font-weight:normal;
+	font-size:20px;
+	
+}
+.resu_name p {
+	float:right;
+	width:480px;
+	padding-bottom:25px;
+	padding-top:8px;
+	background:#fff;
+}
+.resu_name p span {
+	width:310px;
+	display:block;
+	float:left;
+	margin-left:30px;
+	font-size:14px;
+	line-height:200%;
+}
+/*联系方式*/
+.phonepic {
+	height:110px;	
+	background:#fff;
+}
+.phonepic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}
+.resu_contact {
+	overflow:hidden;
+	_zoom:1;
+}
+.resu_contact h4 {
+	float:left;
+	width:495px;
+	padding-top:18px;
+	background:#FFF;
+	padding-bottom:10000px;
+	margin-bottom:-10000px; 
+}
+.resu_contact h4 span {
+	display:block;
+	float:right;
+	margin-right:75px;
+	font-weight:normal;
+	font-size:20px;
+	
+}
+.resu_contact_R {
+	float:right;
+	width:480px;
+	padding-bottom:25px;
+	padding-top:8px;
+	background:#fff;
+}
+.resu_contact_R p {
+	width:310px;
+	display:block;
+	float:left;
+	margin-left:30px;
+	font-size:14px;
+	line-height:200%;
+}
+/*教育经历图片*/
+.edupic {
+	height:110px;	
+	background:#fff;
+}
+.edupic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}
+/*教育经历时间线*/
+.resu_edu {
+	overflow:hidden;
+	_zoom:1
+}
+.resu_edu h4 {
+	float:left;
+	width:495px;
+	padding-top:28px;
+	background:#FFF;
+	padding-bottom:10000px;
+	margin-bottom:-10000px; 
+}
+.resu_edu h4 span {
+	display:block;
+	float:right;
+	margin-right:75px;
+	font-weight:normal;
+	font-size:20px;
+}*/
+/*教育经历右边栏*/
+.edu_first_year {
+	float:right;
+	width: 480px;
+	padding-top:28px;	
+	padding-bottom:25px;
+	background:#fff;
+}
+
+/*下方高能，我简直有病为什么要插入图像来做圆角矩形*/
+.rectangle {
+	margin-left: -35px;
+	width: 69px;
+	float: left;
+	background: #fff;
+}
+.up_r3 {
+	height: 10px;
+	background:url(../design/up_left.jpg) no-repeat;
+}
+.up_r2 {
+	background:url(../design/up_right.jpg) no-repeat right 0;
+}
+
+.up_r1 {
+	overflow: hidden;
+	height:10px;
+	background:url(../design/line.png) repeat-x;
+}
+
+.rectangle p {	
+	text-align: center;
+	border-left: 5px solid #eee;
+	border-right: 5px solid #eee;
+	color: #666;
+	font-size: 14px;
+}
+.down_r3 {
+	height: 10px;
+	background:url(../design/bottom_right.jpg) no-repeat right 0;
+}
+.down_r2 {
+	background:url(../design/bottom_left.jpg) no-repeat;
+}
+.down_r1 {
+	overflow: hidden;
+	height: 10px;
+	background:url(../design/line.png) repeat-x bottom; 
+}
+.edu_first_year h3 {
+	float: left;
+	margin-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	background: #fff;
+}
+
+
+
+/*第二种方法做圆角矩形*/
+/*.sec_year {
+	float: left;
+	margin-top: 40px;
+}
+*/
+/*.sec_year h2 {
+	float: left;
+	margin-left: -35px;
+	width: 59px;
+	padding: 5px 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666;
+	background: #fff;
+	border: 5px solid #eee;
+	border-radius: 10px;
+}
+.sec_year h3 span {
+	display: block;
+	font-size: 12px;
+	margin-top: 12px;
+}
+.edu_three_year {
+	float: left;
+	margin-top: 35px;
+}
+.edu_three_year img {
+	display: block;
+	float: left;
+	margin-left: -35px;
+}
+.edu_three_year h3 span {
+	display: block;
+	font-size: 12px;
+	margin-top: 12px;
+}*/
+/*工作图片*/
+/*.workpic {
+	width: 980px;
+	height:110px;	
+	background:#fff;
+}
+.workpic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}*/
+/*工作经历年*/

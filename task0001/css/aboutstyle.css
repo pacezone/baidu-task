@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-div, p, ul, li, body, img, h1, h2, h3, artcle, a, dl, dt, dd {
+div, p, ul, li, body, img, h1, h2, h3, h4, h5, h6, artcle, a, dl, dt, dd {
 	margin:0;
 	padding:0;
 	border:0;
@@ -82,21 +82,374 @@ body {
 	width:980px;
 	margin:0 auto;
 }
-.resu_name {
-	overflow:hidden;
-}
-.resu_name_L {
-	float:left;
-	width:495px;
+/*头像*/
+.mypic {
+	height:110px;
 	background:#fff;
+}
+.mypic img {
+	float:left;
+	margin-top:-70px;
+	margin-left:405px;
+	display:block;
+}
+/*我的介绍*/
+.resu_name {
+	overflow: hidden;
+	zoom: 1;
+}
+.resu_name dt {
+	width: 495px;
+	padding-top: 18px;
+	border-right: 5px solid #eee;
+	background: #fff;
+	float: left;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+.resu_name dt h3 {
+	float: right;
+	padding-right: 75px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Century Gothic",Arial;
+}
+.resu_name dd {
+	width: 480px;
+	float: left;
+	padding-top: 18px;
+	padding-bottom: 28px;
+	background: #fff;  
 	
 }
-.resu_name_L img {
-	float:right;
-	margin-right:;
+.resu_name dd p {
+	width: 310px;
+	float: left;
+	padding-left: 30px;
+	font-size: 14px;
+	line-height: 170%;
 }
-.resu_name_R {
-	width:480px;
-	float:right;
+/*手机图片*/
+.phone_pic {
+	width: 980px;
+	height:110px;	
 	background:#fff;
+}
+.phone_pic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}
+/*联系方式*/
+.resu_contact {
+	overflow: hidden;
+	zoom: 1;
+}
+.resu_contact dt {
+	width: 495px;
+	padding-top: 18px;
+	border-right: 5px solid #eee;
+	background: #fff;
+	float: left;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+.resu_contact dt h3 {
+	float: right;
+	padding-right: 75px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Century Gothic",Arial;
+}
+.resu_contact dd {
+	width: 480px;
+	float: left;
+	padding-top: 18px;
+	padding-bottom: 28px;
+	background: #fff;
+	
+}
+.resu_contact dd p {
+	width: 310px;
+	float: left;
+	padding-left: 30px;
+	font-size: 14px;
+	line-height: 170%;
+}
+/*学校图像*/
+.edu_pic {
+	width: 980px;
+	height:110px;	
+	background:#fff;
+}
+.edu_pic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}
+/*教育经历*/
+.resu_edu {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.resu_edu dt {
+	width: 495px;
+	padding-top: 18px;
+	border-right: 5px solid #eee;
+	background: #fff;
+	float: left;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+.resu_edu dt h3 {
+	float: right;
+	padding-right: 75px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Century Gothic",Arial;
+}	
+.edu_first_year {
+	width: 480px;
+	float: left;
+	padding-top: 18px;
+	background: #fff;
+}																	
+/*作死的圆角矩形开始了*/.rectangle {
+	margin-left: -35px;
+	width: 69px;
+	float: left;
+	background: #fff;
+	z-index: 100;
+}
+.up_r3 {
+	height: 10px;
+	background:url(../design/up_left.jpg) no-repeat;
+}
+.up_r2 {
+	background:url(../design/up_right.jpg) no-repeat right 0;
+}
+
+.up_r1 {
+	
+	height:10px;
+	background:url(../design/line.png) repeat-x;
+}
+.rectangle p {	
+	text-align: center;
+	border-left: 5px solid #eee;
+	border-right: 5px solid #eee;
+	color: #666;
+	font-size: 14px;
+}
+.down_r3 {
+	height: 10px;
+	background:url(../design/bottom_right.jpg) no-repeat right 0;
+}
+.down_r2 {
+	background:url(../design/bottom_left.jpg) no-repeat;
+}
+.down_r1 {
+	
+	height: 10px;
+	background:url(../design/line.png) repeat-x bottom; 
+}
+.edu_first_year h4 {
+	float: left;
+	padding-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+}
+
+/*第二年.*/.edu_second_year {
+	width: 480px;
+	float: right;
+	padding-top: 38px;
+	background: #fff;
+}
+
+.edu_second_year h1 {
+	width: 59px;
+	text-align: center;
+	padding: 5px 0; 
+	margin-left: -35px;
+	float: left;
+	border: 5px solid #eee;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   	 -o-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.edu_second_year h4 {
+	float: left;
+	padding-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+}
+.edu_second_year h4 span {
+	display: block;
+	font-size: 12px;
+}
+.edu_second_year {
+	width: 480px;
+	float: right;
+	padding-top: 38px;
+	background: #fff;
+}
+ 
+/*2012 */
+.edu_three_year {
+	width: 480px;
+	float: right;
+	padding-top: 28px;
+	padding-bottom: 24px;
+	background: #fff;
+}
+.edu_three_year h1 {
+	width: 59px;
+	text-align: center;
+	padding: 5px 0; 
+	margin-left: -35px;
+	float: left;
+	border: 5px solid #eee;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   	 -o-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.edu_three_year h4 {
+	float: left;
+	padding-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+}
+.edu_three_year h4 span {
+	display: block;
+	font-size: 12px;
+}
+/*工作照片*/
+.work_pic {
+	width: 980px;
+	height:110px;	
+	background:#fff;
+}
+.work_pic img {
+	display:block;
+	float:left;
+	margin-left:440px;
+}
+/*工作经历*/
+.resu_work {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.resu_work dt {
+	width: 495px;
+	padding-top: 18px;
+	border-right: 5px solid #eee;
+	background: #fff;
+	float: left;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+}
+.resu_work dt h3 {
+	float: right;
+	padding-right: 75px;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: "Century Gothic",Arial;
+}
+/*工作经历第一年*/
+.work_first_year {
+	width: 480px;
+	float: left;
+	padding-top: 18px;
+	background: #fff;
+}
+
+.work_first_year h1 {
+	width: 59px;
+	text-align: center;
+	padding: 5px 0; 
+	margin-left: -35px;
+	float: left;
+	border: 5px solid #eee;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   	 -o-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.work_first_year h4 {
+	float: left;
+	padding-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+}
+.work_first_year h4 span {
+	display: block;
+	font-size: 12px;
+}
+.work_first_year {
+	width: 480px;
+	float: right;
+	padding-top: 38px;
+	background: #fff;
+}
+/*工作经历第二年*/
+.work_second_year {
+	width: 480px;
+	float: right;
+	padding-top: 38px;
+	background: #fff;
+}
+
+.work_second_year h1 {
+	width: 59px;
+	text-align: center;
+	padding: 5px 0; 
+	margin-left: -35px;
+	float: left;
+	border: 5px solid #eee;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	   	 -o-border-radius: 10px;
+	        border-radius: 10px;
+	background: #fff;
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+}
+.work_second_year h4 {
+	float: left;
+	padding-left: 18px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+}
+.work_second_year h4 span {
+	display: block;
+	font-size: 12px;
+}
+.work_second_year {
+	width: 480px;
+	float: right;
+	padding-top: 38px;
+	background: #fff;
 }
