@@ -1,74 +1,81 @@
 @charset "utf-8";
 /* CSS Document */
-div, p, ul, li, body, img, h1, h2, h3, artcle, a, dl, dt, dd {
-	margin:0;
-	padding:0;
-	border:0;
-	font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
-	font-size:12px;
+div, p, ul, li, body, img, h1, h2, h3, h4, h5, a, dl, dt, dd, table, tr, td, th, form, input, em, strong, span {
+    margin:0;
+    padding:0;
+    border:none;
+    font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
+    font-size:12px;
 }
 @font-face{
-	font-family:"Century Gothic";
-	src:url(../../Century%20Gothic.ttf);
+    font-family:"Century Gothic";
+    src:url(../../Century%20Gothic.ttf);
 }
 @font-face {
-	font-family:Shruti;
-	src:url(../../Shruti.ttf);
+    font-family:Shruti;
+    src:url(../../Shruti.ttf);
 }
-ul,li{
-	list-style:none;
+body {
+    background-color:#eee;
 }
-a{
-	text-decoration:none;underline:none;
+ul, li {
+    list-style:none;
+}
+a {
+    text-decoration:none;underline:none;
 }
 /*导航条*/
-.navbg{
-	position:relative;
-	width:100%;
-	height:80px;
-	background-color:#522a5c;
-	color:#FFF;
+.navbg {
+    width:100%;
+    height:80px;
+    background-color:#522a5c;
+    color:#FFF;
 }
-.nav{
-	max-width:980px;
-	_width:980px;
-	margin:0 auto;
-	overflow:hidden;
+.nav {
+    max-width:980px;
+    _width:980px;
+    margin:0 auto;
+    overflow:hidden;
 }
-.mylogo{
-	font-size:30px;
-	float:left;
-	font-family:Shruti;
-	padding-top:35px;
+.mylogo {
+    font-size:30px;
+    float:left;
+    font-family:Shruti,"Century Gothic",Arial;
+    padding-top:34px;
 }
-.nav_menu{
-	float:right;
+.nav_menu {
+    float:right;
 }
 .nav_menu li {
-	float:right;
-	vertical-align:bottom;
-	padding-left:28px;
-	font-size:14px;
-	padding-top:58px;
+    float:right;
+    vertical-align:bottom;
+    padding-left:28px;
+    font-size:14px;
+    padding-top:58px;
 }
-.nav_menu li a{
-	color:#FFF;
+.nav_menu li a {
+    display:block;
+    float:left;
+    height:14px;
+    color:#FFF;
+    font-size:14px;
+    line-height:14px;
 }
 .githubLogo {
-	width:30px;
-	height:34px;
-	background:url(../design/icon-github.png) no-repeat;
-	_background: none;
-	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/icon-github.png',sizingMethod="crop");
-	
-	position:absolute;
-	bottom:0px;
-	right:10px;	
+    float:right;
+    margin-top:-26px;
+    margin-right:10px;  
+    width:30px;
+    height:34px;
+    background:url(../design/icon-github.png) no-repeat;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/icon-github.png',sizingMethod="crop");
+    
 }
 
 @media all and (max-width: 980px){
-	.githubLogo{display:none;
-	}
+    .githubLogo{display:none;
+    }
 }
 /*背景图片*/
 div.banner_bg {

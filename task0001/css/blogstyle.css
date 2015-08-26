@@ -7,10 +7,14 @@ div, p, ul, li, body, img, h1, h2, h3, h4, h5, a, dl, dt, dd, table, tr, td, th,
 	font-family:"宋体",Arial, Helvetica, sans-serif,Simsun ;
 	font-size:12px;
 }
-@font-face {
-    font-family:"Century Gothic" ;
+@font-face{
+    font-family:"Century Gothic";
     src:url(../../Century%20Gothic.ttf);
-    }
+}
+@font-face {
+    font-family:Shruti;
+    src:url(../../Shruti.ttf);
+}
 body {
 	background-color:#eee;
 }
@@ -36,7 +40,7 @@ a {
 .mylogo {
 	font-size:30px;
 	float:left;
-	font-family:"Century Gothic", Arial;
+	font-family:Shruti,"Century Gothic",Arial;
 	padding-top:34px;
 }
 .nav_menu {
@@ -179,7 +183,7 @@ li.current_page a {
 }
 
 
-/*左边栏*/
+/*右边栏*/
 .right_bar {
 	float:right;
 	width:260px;
