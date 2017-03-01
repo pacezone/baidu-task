@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-03-02 00:37:48
+ * @version $Id$
+ */
+body,div,a,li,ul,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.title {
+	width: 100%;
+	background: #24292E;
+}
+.title h1 {
+	max-width: 1200px;
+	margin: auto;
+	color: #fff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 80%;
+}
+
+section {
+	max-width: 1200px;
+	margin: auto;
+}
+.task_content a {
+	color: #000;
+}
+.task_content {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.task_content li {
+	width: 33%;
+	text-align: center;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-size: 18px;
+}
+@media screen and (max-width: 780px) {
+	.title h1 {
+		text-align: center;
+	}
+	.task_content {
+		display: block;
+	}
+	.task_content li {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
